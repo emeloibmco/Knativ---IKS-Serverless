@@ -13,8 +13,20 @@ _Para el desarrollo de este proyecto se tiene como base una aplicación hello Wo
 ## Pre-requisitos 📋
 
 _1. Tener un Cluster de Kubernetes con minimo 3 Pods._
+
 _2. Tener instalado Docker._
+
 _3. Tener CLI de IBM Cloud._
+
+4.[Instale la CLI de IBM Cloud, el plugin de IBM Cloud Kubernetes Service y la CLI de Kubernetes](https://cloud.ibm.com/docs/containers?topic=containers-cs_cli_install&locale=es#cs_cli_install_steps). Asegúrese de instalar una versión de la CLI de kubectl que coincida con la versión de Kubernetes de su clúster.
+
+5.[Cree un clúster estándar con al menos 3 nodos trabajadores con 4 núcleos y 16 GB de memoria (b3c.4x16) o más cada uno](https://cloud.ibm.com/docs/containers?topic=containers-clusters&locale=es#clusters_ui). Además, el clúster y los nodos trabajadores deben ejecutar al menos la versión mínima soportada de Kubernetes, que puede obtener con el mandato ibmcloud ks addon-versions --addon knative.
+
+6.Asegúrese de tener el [rol de servicio Escritor o Gestor de IBM Cloud IAM](https://cloud.ibm.com/docs/containers?topic=containers-users&locale=es#platform) para IBM Cloud Kubernetes Service.
+
+7.[Defina su clúster como destino de la CLI](https://cloud.ibm.com/docs/containers?topic=containers-cs_cli_install&locale=es#cs_cli_configure).
+
+8.Si ya tiene instalado el complemento Istio gestionado, [compruebe que la versión es 1.4 o desinstale Istio](https://cloud.ibm.com/docs/containers?topic=containers-serverless-apps-knative#knative_limitations). Cuando se instala el complemento Knative gestionado, Istio 1.4 se instala con el complemento.
 
 
 ## Preparación para instalación de Knative en Kubernetes desde la consola web del cluster: 🚀
