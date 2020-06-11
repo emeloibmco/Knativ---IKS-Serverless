@@ -1,4 +1,4 @@
-# Knativ---IKS-Serverless
+# Knative-IKS-Serverless
 # GUÍA DE INSTALACIÓN DE KNATIVE Y DESPLIEGUE DE APP SERVERLESS NODEJS EN KUBERNETES
 
 _Para el desarrollo de este proyecto se tiene como base una aplicación hello World basada en el lenguaje de programación NodeJs y su posterior despliegue en un **Cluster de Kubernetes** que se encuentra alojado en **IBM Cloud**._
